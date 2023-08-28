@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Engaging Button</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+  }
+
+  .custom-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 14px;
+    //font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #f1f1ef;
+    color: black;
+    border: 2px solid black; /* Add a black border */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .custom-button:hover {
+    background-color: #d3d3d1;
+    transform: scale(1.05);
+  }
+</style>
+</head>
+<body>
+  <button class="custom-button">Interested in talking to me? </button>
+</body>
+</html>
